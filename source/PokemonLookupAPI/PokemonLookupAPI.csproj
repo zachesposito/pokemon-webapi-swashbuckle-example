@@ -5,6 +5,10 @@
     <AssemblyName>PokemonLookupAPI</AssemblyName>
     <RootNamespace>PokemonLookupAPI</RootNamespace>
   </PropertyGroup>
+  <PropertyGroup>
+  <GenerateDocumentationFile>true</GenerateDocumentationFile>
+  <NoWarn>$(NoWarn);1591</NoWarn>
+</PropertyGroup>
 
   <ItemGroup>
     <Folder Include="wwwroot\" />

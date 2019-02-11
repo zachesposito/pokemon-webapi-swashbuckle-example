@@ -31,9 +31,14 @@ namespace PokemonLookupAPI
             services.AddSwaggerGen(c =>
             {
                 c.SwaggerDoc("v1", new Info { Title = "Pokemon Lookup API", Version = "v1" });
+                // Set the comments path for the Swagger JSON and UI.
+                var xmlFile = $"{System.Reflection.Assembly.GetExecutingAssembly().GetName().Name}.xml";
+                var xmlPath = System.IO.Path.Combine(AppContext.BaseDirectory, xmlFile);
+                c.IncludeXmlComments(xmlPath);
             });
 
             services.AddSingleton<Services.IPokemonService, Services.PokemonService>();
+
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.

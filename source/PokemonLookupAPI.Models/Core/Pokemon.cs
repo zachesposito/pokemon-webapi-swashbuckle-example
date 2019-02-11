@@ -9,20 +9,20 @@ namespace PokemonLookupAPI.Models.Core
 {
     public partial class Pokemon
     {
-        [JsonProperty("abilities")]
-        public IEnumerable<Ability> Abilities { get; set; }
+        //[JsonProperty("abilities")]
+        //public IEnumerable<Ability> Abilities { get; set; }
 
-        [JsonProperty("base_experience")]
-        public long BaseExperience { get; set; }
+        //[JsonProperty("base_experience")]
+        //public long BaseExperience { get; set; }
 
-        [JsonProperty("forms")]
-        public ResourceReference[] Forms { get; set; }
+        //[JsonProperty("forms")]
+        //public ResourceReference[] Forms { get; set; }
 
-        [JsonProperty("game_indices")]
-        public IEnumerable<GameIndex> GameIndices { get; set; }
+        //[JsonProperty("game_indices")]
+        //public IEnumerable<GameIndex> GameIndices { get; set; }
 
-        [JsonProperty("height")]
-        public long Height { get; set; }
+        //[JsonProperty("height")]
+        //public long Height { get; set; }
 
         //[JsonProperty("held_items")]
         //public object[] HeldItems { get; set; }
@@ -30,14 +30,14 @@ namespace PokemonLookupAPI.Models.Core
         [JsonProperty("id")]
         public long Id { get; set; }
 
-        [JsonProperty("is_default")]
-        public bool IsDefault { get; set; }
+        //[JsonProperty("is_default")]
+        //public bool IsDefault { get; set; }
 
-        [JsonProperty("location_area_encounters")]
-        public Uri LocationAreaEncounters { get; set; }
+        //[JsonProperty("location_area_encounters")]
+        //public Uri LocationAreaEncounters { get; set; }
 
-        [JsonProperty("moves")]
-        public IEnumerable<Move> Moves { get; set; }
+        //[JsonProperty("moves")]
+        //public IEnumerable<Move> Moves { get; set; }
 
         [JsonProperty("name")]
         public string Name { get; set; }
@@ -48,8 +48,8 @@ namespace PokemonLookupAPI.Models.Core
         [JsonProperty("species")]
         public ResourceReference Species { get; set; }
 
-        [JsonProperty("sprites")]
-        public Sprites Sprites { get; set; }
+        //[JsonProperty("sprites")]
+        //public Sprites Sprites { get; set; }
 
         [JsonProperty("stats")]
         public IEnumerable<Stat> Stats { get; set; }
@@ -57,8 +57,8 @@ namespace PokemonLookupAPI.Models.Core
         [JsonProperty("types")]
         public IEnumerable<PokemonType> Types { get; set; }
 
-        [JsonProperty("weight")]
-        public long Weight { get; set; }
+        //[JsonProperty("weight")]
+        //public long Weight { get; set; }
     }
 
     public partial class Ability
@@ -78,8 +78,8 @@ namespace PokemonLookupAPI.Models.Core
         [JsonProperty("name")]
         public string Name { get; set; }
 
-        [JsonProperty("url")]
-        public Uri Url { get; set; }
+        //[JsonProperty("url")]
+        //public Uri Url { get; set; }
     }
 
     public partial class GameIndex

@@ -36,8 +36,8 @@ namespace PokemonLookupAPI.Models.Core
         //[JsonProperty("location_area_encounters")]
         //public Uri LocationAreaEncounters { get; set; }
 
-        //[JsonProperty("moves")]
-        //public IEnumerable<Move> Moves { get; set; }
+        [JsonProperty("moves")]
+        public IEnumerable<Move> Moves { get; set; }
 
         [JsonProperty("name")]
         public string Name { get; set; }

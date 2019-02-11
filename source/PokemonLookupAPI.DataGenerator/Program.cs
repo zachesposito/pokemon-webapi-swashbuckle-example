@@ -8,7 +8,7 @@ namespace PokemonLookupAPI.DataGenerator
     {
         static void Main(string[] args)
         {
-            var cachePath = @"C:\Users\zachesposito\source\repos\learning\pokemon-lookup-api\data\pokeapi-cache";
+            var cachePath = @"C:\Users\zesposito\source\repos\learning\pokemon-lookup-api\data\pokeapi-cache";
 
             Console.WriteLine("** Starting data generator.");
             //if pokeapi cache doesn't exist, get it and cache
